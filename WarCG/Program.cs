@@ -11,6 +11,8 @@ namespace Game
             var CurrentCard = new Card();
             CurrentCard.CardVal = Card.Value.Queen;
             Console.WriteLine(CurrentCard.CardVal);
+            
+            var Deck = new Deck();
 
             return;
         }

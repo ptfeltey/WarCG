@@ -1,31 +1,31 @@
-﻿using System;
+﻿  using System;
 namespace WarCG
 {
 	public class Card
 	{
 		public enum Value
 		{
-			Two,
-			Three,
-			Four,
-			Five,
-			Six,
-			Seven,
-			Eight,
-			Nine,
-			Ten,
-			Jack,
-			Queen,
-			King,
-			Ace
-		}
+			Two,   // 0
+			Three, // 1
+			Four,  // 2
+            Five,  // 3
+            Six,   // 4
+            Seven, // 5
+            Eight, // 6
+            Nine,  // 7
+            Ten,   // 8
+            Jack,  // 9
+            Queen, // 10
+            King,  // 11
+            Ace    // 12
+        }
 
 		public enum Suit
 		{
-			Spade,
-			Heart,
-			Club,
-			Diamond
+			Spade,   // 0
+			Heart,   // 1
+            Club,    // 2
+            Diamond  // 3
 		}
 
 		private Value _cardVal { get; set; }
